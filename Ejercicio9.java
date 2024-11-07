@@ -18,26 +18,12 @@ public class Ejercicio9 {
 
             contenedor=cadena.contains(subcadena);
             if (contenedor==true){
-                System.out.println("SI ES");
+                System.out.println("Si, la cadena contiene la subcadena");
 
             }else{
-                System.out.println("no es");
+                System.out.println("No, la cadena no contiene la subcadena");
             }
-            /*for (int i =0; i <= cadena.length(); i++) {
-                cadena_prueba=cadena.substring(i,subcadena.length()+i);
-                System.out.println(cadena_prueba);
-                if(cadena_prueba.equals(subcadena)){
-                   es=true;
-                   break;
-                }  
-                
-            }
-            if(es==true){
-            System.out.println("es");
-            }else{
-                System.out.println("no es");
-            }*/
-
+          
 
 
          entrada.close();
