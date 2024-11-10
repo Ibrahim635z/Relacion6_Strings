@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Ejercicio9 {
     public static void main(String[] args) {
          Scanner entrada=new Scanner(System.in);
-            String cadena="",subcadena="",cadena_prueba="";
-            boolean es=false;
+            String cadena="",subcadena="";
+            boolean contenedor=false;
 
 
            System.out.println("Introduzca una cadena");
@@ -14,7 +14,7 @@ public class Ejercicio9 {
             System.out.println("Introduzca una subcadena");
             subcadena=entrada.nextLine();
            
-            boolean contenedor=false;
+          
 
             contenedor=cadena.contains(subcadena);
             if (contenedor==true){
